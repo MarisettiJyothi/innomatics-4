@@ -1,0 +1,316 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     color: black;
+}
+
+
+
+
+/* Header styling */
+header {
+     background: white;
+     /* White background for header */
+     color: #333;
+     padding: 10px 0;
+     border-bottom: 1px solid #ccc;
+     /* Optional: Add a border to distinguish header */
+}
+
+/* Hero Section Styling */
+.hero {
+     background: url('hell.png') no-repeat center center/cover;
+     /* Replace with your actual image */
+     color: white;
+     height: 70vh;
+     /* Full-screen hero height */
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     /* Aligns content at the bottom */
+     text-align: center;
+     padding-bottom: 40px;
+     /* Adds space between the text and the bottom of the section */
+}
+
+.hero-content {
+     max-width: 800px;
+     height: 150px;
+}
+
+/* Button styling */
+.btn {
+     background-color: rgb(226, 110, 110);
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background 0.3s;
+}
+
+.btn:hover {
+     background-color: rgb(226, 110, 110);
+}
+
+
+
+
+
+/* Navbar styling */
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+/* Logo styling */
+.logo img {
+     width: 200px;
+     /* Adjust as needed */
+     height: auto;
+}
+
+/* Login Section */
+.login-section {
+     padding: 50px;
+     text-align: center;
+ }
+ 
+ .login-section h1 {
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ .login-section form {
+     display: inline-block;
+     text-align: center;
+     margin: 0 auto;
+ }
+ 
+ .login-section label {
+     display: block;
+     margin: 10px 0 5px;
+ }
+ 
+ .login-section input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+ }
+ 
+ .login-section button {
+     background-color: #e73c3c;
+     color: #666;
+     padding: 15px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-size: 16px;
+     transition: background-color 0.3s;
+ }
+ 
+ .login-section button:hover {
+     background-color: #c0392b;
+ }
+
+.registration-section {
+     padding: 50px;
+     text-align: center;
+ }
+ 
+ .registration-section h1 {
+     margin-bottom: 20px;
+ }
+ 
+ .registration-section form {
+     display: inline-block;
+     text-align: left;
+     margin: 0 auto;
+ }
+ 
+ .registration-section label {
+     display: block;
+     margin: 10px 0 5px;
+ }
+ 
+ .registration-section input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+ }
+ 
+ .registration-section button {
+     background-color: #e74c3c;
+     color: #fff;
+     padding: 15px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-size: 16px;
+     transition: background-color 0.3s;
+ }
+ 
+ .registration-section button:hover {
+     background-color: #c0392b;
+ }
+
+/* Navigation menu styling */
+nav ul {
+     list-style: none;
+     display: flex;
+     /* This arranges the items side by side */
+}
+
+nav ul li {
+     margin-left: 20px;
+     /* Space between the links */
+}
+
+nav ul li a {
+     color: #333;
+     text-decoration: none;
+     padding: 10px;
+     transition: background0.3s;
+}
+
+nav ul li a:hover {
+     background: #f0f0f0;
+     border-radius: 5px;
+}
+
+
+
+
+
+.hero h1 {
+     font-size: 3em;
+     margin-bottom: 20px;
+}
+
+.hero p {
+     font-size: 1.2em;
+     margin-bottom: 20px;
+}
+
+
+
+
+.about,
+.services,
+.contact {
+     padding: 60px 20px;
+     text-align: center;
+     background: #f9f9f9;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+     font-size: 2.5em;
+     margin-bottom: 20px;
+}
+
+.about p,
+.services p,
+.contact p {
+     font-size: 1.1em;
+     max-width: 800px;
+     margin: 0 auto 40px;
+}
+
+
+/* Services Section */
+.services {
+     padding: 50px 0;
+     text-align: center;
+     background-color: #f8f8f8;
+}
+
+.service-container {
+     display: flex;
+     justify-content: space-around;
+     /* Aligns the service items side by side */
+     flex-wrap: wrap;
+     /* Allows wrapping on smaller screens */
+     gap: 20px;
+     padding: 20px;
+}
+
+.service-item {
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     max-width: 300px;
+     text-align: center;
+}
+
+.service-item img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+     margin-bottom: 15px;
+}
+
+.service-item h3 {
+     margin-top: 10px;
+     font-size: 24px;
+     color: #333;
+}
+
+.service-item p {
+     color: #666;
+     font-size: 16px;
+}
+
+/*login*/
+
+ form {
+     max-width: 600px;
+     margin: 0 auto;
+     text-align: left;
+}
+
+ form label {
+     display: block;
+     margin-bottom: 10px;
+}
+
+ form input,
+form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+ form button {
+     background-color: rgb(226, 110, 110);
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+ form button:hover {
+     background-color: black;
+}
+
+ footer {
+     background-color: #333;
+     color: white;
+     padding: 20px;
+     text-align: center;
+}
+
